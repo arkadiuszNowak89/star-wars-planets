@@ -1,0 +1,28 @@
+.star-wars-list {
+  padding: 0;
+  margin-bottom: 30px;
+  list-style: none;
+  text-align: center;
+
+  font-size: 18px;
+}
+
+.star-wars-list li:hover {
+  padding: 0 5px;
+  cursor: pointer;
+  color: rgb(72, 235, 23);
+  border: 2px dashed black;
+  border-radius: 10px;
+}
+
+.star-wars-list li .info-cont {
+  text-align: left;
+  font-size: 10px;
+  font-style: italic;
+}
+
+.star-wars-list li .info-cont span {
+  font-style: normal;
+  font-weight: bold;
+  color: rgb(124, 0, 0);
+}
